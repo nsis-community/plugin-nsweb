@@ -28,4 +28,5 @@ jobs:
             Contrib/nsWeb/main.c
             Contrib/nsWeb/resource.rc
           strict: false
+          targets: x86-ansi
           release: ${{ github.event_name == 'release' }}
