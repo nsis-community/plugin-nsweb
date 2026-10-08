@@ -7,7 +7,6 @@
 // Reduce our DLL with libctiny.lib
 // Attention! this library is not portable (see readme.txt)
 // You can remove this pragma if any errors
-#pragma comment (lib, "libctiny.lib")
 // Include Windows OS' main API
 #include <windows.h>
 // Include functions for the web browser control
